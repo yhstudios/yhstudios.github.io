@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+}
+
+@font-face {
+    font-family: 'SF Display';
+    src: url('System\ San\ Francisco\ Display\ Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('ProductSans-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'SF Display', serif;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #4cb3f6;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+
+a {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 50px;
+    color: white !important;
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+    color: red;
+}
+
+p {
+    font-family: 'SF Display', sans-serif;
+    font-size: 30px;
+    color: white;
+}
