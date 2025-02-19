@@ -23,35 +23,35 @@ h1 {
     font-weight: lighter;
     color: #4cb3f6;
     padding: 20px;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 img {
-    width: 200px;
-    height: auto;
+    width: 200px !important;
+    height: auto !important;
 }
 
-h2 {
+.index-container h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 30px;
     color: rgb(82, 215, 255);
 }
 
-a {
+.index-container a {
     font-family: 'Google Sans', sans-serif;
     font-size: 40px;
     color: white !important;
     text-decoration: none;
 }
 
-p {
+.index-container p {
     font-family: 'SF Display', sans-serif;
     font-size: 20px;
     color: white;
 }
 
-button {
+.index-container button {
     padding: 20px;
     font-family: 'SF Display', sans-serif;
     font-size: 40px;
@@ -61,6 +61,57 @@ button {
     border-radius: 10px;
 }
 
-button:hover {
+.index-container button:hover {
     cursor: pointer;
+    color: white;
+    background-color: #0b5ed7;
+}
+
+.index-container button {
+    padding: 20px;
+    font-family: 'SF Display', sans-serif;
+    font-size: 40px;
+    color: rgb(37, 37, 37);
+    background-color: #4cb3f6;
+    border: none;
+    border-radius: 10px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/*---------------Hire me----------------------*/
+
+.hire p {
+    padding: 20px;
+}
+
+.hire h5 {
+    color: white;
+    text-align: left;
+}
+
+.hire h2 {
+    font-size: 50px;
+    font-family: 'SF Display', sans-serif;
+}
+
+.hire button {
+    padding: 20px;
+    font-family: 'SF Display', sans-serif;
+    font-size: 40px;
+    color: rgb(37, 37, 37);
+    background-color: #4cb3f6;
+    border: none;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    border-radius: 20px;
+    border-color: #4cb3f6 !important;
+    border-width: 3px !important;
+}
+
+footer {
+    color: white;
 }
